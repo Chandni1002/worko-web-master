@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black; /* Set the background color to black */
+  }
+  p{
+    text-align: justify;
+  }
+  
+  .black-page {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .changelog-heading {
+    color: gray;
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .new-updates {
+    color: gray;
+  }
+  
+  img {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 1100px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .update-main {
+    color: white;
+    margin: 10px;
+    text-align: left; /* Center the text and images */
+    font-size: small;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1100px; /* Set a maximum width for the content */
+    margin-left: auto; /* Center the div horizontally */
+    margin-right: auto; /* Center the div horizontally */
+  }
+  
+  .update-main h2 {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  h2 {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  
+  .dates {
+    color: #7808FF;
+    font-size: small;
+    text-align: left;
+    margin-top: 10px;
+    margin-left:-6px;
+    padding: 5px;
+    position: sticky;
+  }
+  
+  .update-content {
+    color: rgb(126, 126, 126);
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: auto; /* Center the div horizontally */
+    margin-right: auto; /* Center the div horizontally */
+  }
+  
+  .update-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-left: auto; /* Center the div horizontally */
+    margin-right: auto; /* Center the div horizontally */
+  }
+  
+  .update-content ul li {
+    margin-bottom: 10px;
+    color: gray;
+    margin-left: auto; /* Center the div horizontally */
+    margin-right: auto; /* Center the div horizontally */
+  }
+  
+  /* Newsletter Subscription Styles (uncomment if needed) */
+  /*
+  .newsletter-box {
+    background-color: #1f1f1f; 
+    border-radius: 10px; 
+    padding: 20px; 
+    text-align: left;
+    margin: 20px 0; 
+  }
+  
+  .subscribe-heading {
+    color: gray;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .exclusive-content {
+    color: gray;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .email-input-container {
+    display: flex;
+    color: black;
+  }
+  
+  .email-input {
+    flex: 1; 
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: black;
+  }
+  
+  .subscribe-button {
+    background-color: #7808FF; 
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-left: -10px; 
+  }
+  */
+  
